@@ -27,12 +27,12 @@ Every project uses public or synthetic data only. No employer data. Each one shi
 
 | Project | What it shows | Status |
 | --- | --- | --- |
-| [Patient-360](https://github.com/agshivam/patient-360) | Hospital data platform on synthetic patients: Epic-style layers, masking, duplicate-patient merge | Building: stage 1 live |
-| Snowflake cost lab | Measured query and warehouse cost cuts, with a cost gate in CI | Planned |
-| Chaos-proof pipelines | Data contracts, reconciliation, idempotent backfills, failure injection | Planned |
-| Job Radar | Public job APIs, fuzzy dedupe, resume-match scoring, Telegram alerts | Planned |
-| Portable platform layer | One dbt project on Snowflake and DuckDB, Terraform, daily CI run | Planned |
-| Patient-360 Lakehouse | The same domain on Databricks: medallion layers, Unity Catalog, Asset Bundles | Planned |
+| [Patient-360](https://github.com/agshivam/patient-360) | Hospital data platform on synthetic patients: dbt models and tests, masking, injected faults, fuzzy duplicate-patient merge. [Live report](https://patient-360.streamlit.app/) | Live: stages 1 to 4 |
+| [Snowflake cost lab](https://github.com/agshivam/snowflake-cost-lab) | Measured query and warehouse cost cuts, with a cost gate in CI | In progress |
+| [Chaos-proof pipelines](https://github.com/agshivam/chaos-proof-pipelines) | Data contracts, reconciliation, idempotent backfills, failure injection | In progress |
+| [Job Radar](https://github.com/agshivam/job-radar) | Public job APIs, fuzzy dedupe, resume-match scoring, Telegram alerts | In progress |
+| [Portable platform layer](https://github.com/agshivam/portable-data-platform) | One dbt project on Snowflake and DuckDB, Terraform, daily CI run | In progress |
+| [Patient-360 Lakehouse](https://github.com/agshivam/patient-360-lakehouse) | The same domain on Databricks: medallion layers, Unity Catalog, Asset Bundles | In progress |
 
 ## How I build
 
@@ -43,4 +43,6 @@ Every project uses public or synthetic data only. No employer data. Each one shi
 
 ## Get in touch
 
-Email, resume and the full career journey will be on my portfolio site once it goes live. Until then, LinkedIn or WhatsApp is the fastest way to reach me.
+Portfolio with my full career journey, resume and contact form: **https://agshivam.github.io**
+
+LinkedIn or WhatsApp is the fastest way to reach me.
