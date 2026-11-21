@@ -19,6 +19,7 @@ Currently at Kipi.ai. Based in India. Open to senior and lead data engineering r
 ![Airflow](https://img.shields.io/badge/Airflow-1F6F8B?style=flat-square&logo=apacheairflow&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-0F1B2D?style=flat-square&logo=duckdb&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1F6F8B?style=flat-square&logo=streamlit&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-1F6F8B?style=flat-square)
 ![Terraform](https://img.shields.io/badge/Terraform-0F1B2D?style=flat-square&logo=terraform&logoColor=white)
 
 ## Showcase projects
@@ -27,6 +28,7 @@ Every project uses public or synthetic data only. No employer data. Each one shi
 
 | Project | What it shows | Status |
 | --- | --- | --- |
+| [Data Spend Copilot](https://github.com/agshivam/data-spend-copilot) | Snowflake, Fivetran, dbt and Cortex AI spend in one governed view: dbt Semantic Layer metrics, an MCP server for AI agents, next-12-month forecast with what-if levers. [Live report](https://data-spend-copilot.streamlit.app/) | Live |
 | [Patient-360](https://github.com/agshivam/patient-360) | Governed platform for sensitive records on synthetic data: dbt models and tests, masking, injected faults, fuzzy duplicate-record merge. [Live report](https://patient-360.streamlit.app/) | Live: stages 1 to 4 |
 | [Snowflake cost lab](https://github.com/agshivam/snowflake-cost-lab) | Measured query and warehouse cost cuts, with a cost gate in CI | Scripts ready, live run next |
 | [Chaos-proof pipelines](https://github.com/agshivam/chaos-proof-pipelines) | Data contracts, reconciliation, idempotent backfills, failure injection | Code and tests done |
